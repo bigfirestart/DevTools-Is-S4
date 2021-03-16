@@ -78,4 +78,9 @@
 ![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/5_5.png)
 
 
+## 6) HotKeys
+Наиболее распространённые горячие клавиши хорошо демонстрируются на изображении, найденым мной в интернете
+![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/6.png)
+
+
 
