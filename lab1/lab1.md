@@ -7,29 +7,29 @@
 Скачиваем последнюю версию xcode с AppStore или сайта apple.com
 Для лабораторной работы создадим консольный проект
 
- ![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-03-15%20%D0%B2%2021.19.32.png)
+ ![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/sources/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-03-15%20%D0%B2%2021.19.32.png)
  
  ## 2) Настройка
  Xcode даёт нам выбор из двух языков swift и objectiveC, выберем swift
- ![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-03-15%20%D0%B2%2021.21.25.png)
+ ![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/sources/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-03-15%20%D0%B2%2021.21.25.png)
  
  ## 3) Базовый проект
  Точкой входа в приложение swift является файл main.swift, поэтому добавим наш код именно туда 
- ![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-03-16%20%D0%B2%2011.13.16.png)
+ ![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/sources/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-03-16%20%D0%B2%2011.13.16.png)
  
  ## 4)Тесты
  Добавим unit тесты в наш проект
- ![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-03-15%20%D0%B2%2021.30.51.png)
+ ![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/sources/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-03-15%20%D0%B2%2021.30.51.png)
  
- ![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-03-15%20%D0%B2%2021.31.03.png)
+ ![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/sources/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-03-15%20%D0%B2%2021.31.03.png)
  
  Не забудем так же добавить файл main.swift в сборку наших тестов
   
- ![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-03-15%20%D0%B2%2021.37.13.png)
+ ![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/sources/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-03-15%20%D0%B2%2021.37.13.png)
 
  Итоговый прогресс тестов покажется в аналогичной вкладке (запуск тестов производится комбинацией cmd+U)
  
- ![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-03-15%20%D0%B2%2021.59.19.png)
+ ![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/sources/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-03-15%20%D0%B2%2021.59.19.png)
  
  ## 5)Xcode CLI
  ### Команды cli xcode бывают 5 видов:
@@ -66,33 +66,33 @@
 В xcode есть встроенный механизм создания снипеттов </br>
 Выбираем нужный нам код нажимаем правой кнопкой мыши и выбираем Create Code Snippet
 
-![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/5.png)
-![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/5_1.png)
+![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/sources/5.png)
+![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/sources/5_1.png)
 
 Теперь мы можем найти наш сниппен в аналогичной панели 
-![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/5_2.png)
+![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/sources/5_2.png)
 
 Чтобы добавить параметры используем <# #>
-![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/5_3.png)
-![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/5_4.png)
-![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/5_5.png)
+![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/sources/5_3.png)
+![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/sources/5_4.png)
+![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/sources/5_5.png)
 
 
 ## 6) HotKeys
 Наиболее распространённые горячие клавиши хорошо демонстрируются на изображении, найденым мной в интернете
-![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/6.png)
+![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/sources/6.png)
 
 ## 7) Doc
 В xcode так же есть встроенная система комментирования и подсказок <br>
 Чтобы создать комментарий к своему коду нужно добавить однострочный или многострочный комментарий перед методом, так же многострочный комментарий поддерживает Markdown
-![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/7.png)
-![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/7_1.png)
-![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/7_2.png)
+![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/sources/7.png)
+![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/sources/7_1.png)
+![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/sources/7_2.png)
 
 ## 8) Theaming
 Xcode включает в себя довольно общирный набор интсрументов кастомизации <br>
 Чтобы создать свою тему переходим: Xcode -> Preferances -> Theaming -> +
-![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/9.png)
+![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/sources/9.png)
 
 
 
