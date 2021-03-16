@@ -1,5 +1,7 @@
 import Foundation
 
+//TODO
+
 
 func calc (a: Int, b: Int, symb: String) -> Float{
     switch symb {
