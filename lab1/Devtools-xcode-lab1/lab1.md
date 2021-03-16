@@ -82,5 +82,18 @@
 Наиболее распространённые горячие клавиши хорошо демонстрируются на изображении, найденым мной в интернете
 ![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/6.png)
 
+## 7) Doc
+В xcode так же есть встроенная система комментирования и подсказок <br>
+Чтобы создать комментарий к своему коду нужно добавить однострочный или многострочный комментарий перед методом, так же многострочный комментарий поддерживает Markdown
+![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/7.png)
+![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/7_1.png)
+![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/7_2.png)
+
+## 8) Theaming
+Xcode включает в себя довольно общирный набор интсрументов кастомизации <br>
+Чтобы создать свою тему переходим: Xcode -> Preferances -> Theaming -> +
+![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/9.png)
+
+
 
 
