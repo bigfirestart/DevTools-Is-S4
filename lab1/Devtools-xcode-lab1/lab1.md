@@ -30,3 +30,34 @@
  Итоговый прогресс тестов покажется в аналогичной вкладке (запуск тестов производится комбинацией cmd+U)
  
  ![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-03-15%20%D0%B2%2021.59.19.png)
+ 
+ ## 5)Xcode CLI
+ ### Команды cli xcode бывают 5 видов:
+ - xcodebuild
+   #### Основная команда для xcode позовляющая создавать различные сченарии для сборки, отладки и архивирования ios и  macos приложений 
+   $ xcodebuild test project MyAppProject.xcodeproj -scheme MyApp -destination 'platform = OS X, arch = x86_64'  -destination 'platform = Simulator, name = iPhone, OS = 10.2'
+   Clean:
+   $ xcodebuild clean -workspace Bookshop.xcworkspace -scheme bookshop_dev_scheme
+   $ xcodebuild clean -project Bookshop.xcodeproj -scheme bookshop_dev_scheme
+   Build:
+   $ xcodebuild build -workspace Bookshop.xcworkspace -scheme bookshop_dev_scheme
+   Archive:
+   $ xcodebuild archive -workspace Bookshop.xcworkspace -scheme bookshop_dev_scheme -archivePath ~/Downloads/bookshop_dev.xcarchive
+   Create .ipa:
+   $ xcodebuild -exportArchive -archivePath ~/Downloads/bookshop_dev.scarchive -exportPath ~/Downloads -exportOptionsPlist ~/Downloads/ExportOptions.plist
+ - xcode-select
+   #### Позволяет выбирать версию xcode, с который вы будете работать 
+   $ sudo xcode-select - переключатель /Applications/Xcode-beta.app/
+ - xcrun
+   #### Мы можем выполнять большинство командных инструментов Xcode, используя xcrun. Самый полезный инструмент, который можно использовать с xcrun, - это simctl для управления симуляторами с помощью командной строки. Мы можем создавать, редактировать, стирать и удалять симулятор с помощью командной строки, используя simctl, например, мы можем создать
+   $ xcrun simctl создать 'iPhone 7' \ 
+    com.apple.CoreSimulator.SimDeviceType.iPhone-7 \ 
+    com.apple.CoreSimulator.SimRuntime.iOS-10-3
+ - xcscontrol
+   #### Xcode Server - это система непрерывной интеграции, предоставляемая Apple. Мы можем использовать xcscontrol для управления такими действиями сервера Xcode, как запуск, остановка, перезапуск сервера. Мы можем сбросить Xcode Server, используя
+   $ sudo xcrun xcscontrol - сброс
+ - xctest
+   #### XCTest можно выполнить с помощью xcodebuild, однако есть и другие инструменты, которые мы можем использовать для запуска наших модульных тестов. Мы можем использовать xctest для запуска модульных тестов.
+   
+   $ xcrun xctest [-XCTest all | <TestCaseClassName / testMethodName>] <путь к тестируемому объекту>
+ 
