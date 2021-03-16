@@ -60,4 +60,22 @@
    #### XCTest можно выполнить с помощью xcodebuild, однако есть и другие инструменты, которые мы можем использовать для запуска наших модульных тестов. Мы можем использовать xctest для запуска модульных тестов.
    
    $ xcrun xctest [-XCTest all | <TestCaseClassName / testMethodName>] <путь к тестируемому объекту>
- 
+   
+   
+## Snippets
+В xcode есть встроенный механизм создания снипеттов </br>
+Выбираем нужный нам код нажимаем правой кнопкой мыши и выбираем Create Code Snippet
+
+![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/5.png)
+![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/5_1.png)
+
+Теперь мы можем найти наш сниппен в аналогичной панели 
+![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/5_2.png)
+
+Чтобы добавить параметры используем <# #>
+![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/5_3.png)
+![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/5_4.png)
+![](https://github.com/bigfirestart/DevTools-Is-S4/blob/main/lab1/Devtools-xcode-lab1/sources/5_5.png)
+
+
+
