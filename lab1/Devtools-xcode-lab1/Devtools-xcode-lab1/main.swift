@@ -2,6 +2,7 @@ import Foundation
 
 //TODO
 
+//MARK - <#name#>
 
 func calc (a: Int, b: Int, symb: String) -> Float{
     switch symb {
