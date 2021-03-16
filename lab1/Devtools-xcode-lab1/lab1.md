@@ -35,16 +35,16 @@
  ### Команды cli xcode бывают 5 видов:
  - xcodebuild
    #### Основная команда для xcode позовляющая создавать различные сченарии для сборки, отладки и архивирования ios и  macos приложений 
-   $ xcodebuild test project MyAppProject.xcodeproj -scheme MyApp -destination 'platform = OS X, arch = x86_64'  -destination 'platform = Simulator, name = iPhone, OS = 10.2'
-   Clean:
-   $ xcodebuild clean -workspace Bookshop.xcworkspace -scheme bookshop_dev_scheme
-   $ xcodebuild clean -project Bookshop.xcodeproj -scheme bookshop_dev_scheme
-   Build:
-   $ xcodebuild build -workspace Bookshop.xcworkspace -scheme bookshop_dev_scheme
-   Archive:
-   $ xcodebuild archive -workspace Bookshop.xcworkspace -scheme bookshop_dev_scheme -archivePath ~/Downloads/bookshop_dev.xcarchive
-   Create .ipa:
-   $ xcodebuild -exportArchive -archivePath ~/Downloads/bookshop_dev.scarchive -exportPath ~/Downloads -exportOptionsPlist ~/Downloads/ExportOptions.plist
+   $ xcodebuild test project MyAppProject.xcodeproj -scheme MyApp -destination 'platform = OS X, arch = x86_64'  -destination 'platform = Simulator, name = iPhone, OS = 10.2' <br />
+   Clean: <br />
+   $ xcodebuild clean -workspace Bookshop.xcworkspace -scheme bookshop_dev_scheme <br />
+   $ xcodebuild clean -project Bookshop.xcodeproj -scheme bookshop_dev_scheme <br />
+   Build: <br />
+   $ xcodebuild build -workspace Bookshop.xcworkspace -scheme bookshop_dev_scheme <br />
+   Archive: <br />
+   $ xcodebuild archive -workspace Bookshop.xcworkspace -scheme bookshop_dev_scheme -archivePath ~/Downloads/bookshop_dev.xcarchive <br />
+   Create .ipa: <br />
+   $ xcodebuild -exportArchive -archivePath ~/Downloads/bookshop_dev.scarchive -exportPath ~/Downloads -exportOptionsPlist ~/Downloads/ExportOptions.plist <br />
  - xcode-select
    #### Позволяет выбирать версию xcode, с который вы будете работать 
    $ sudo xcode-select - переключатель /Applications/Xcode-beta.app/
