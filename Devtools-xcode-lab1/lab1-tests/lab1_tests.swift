@@ -40,3 +40,11 @@ class lab1TestsDev: XCTestCase{
         XCTAssertEqual(calc(a: -10, b:10, symb: "/"), -1)
     }
 }
+
+class lab1TestsExp: XCTestCase{
+    func test(){
+        XCTAssertEqual(calc(a: 1, b:2, symb: "^"), Float(1))
+        XCTAssertEqual(calc(a: 10, b:2, symb: "^"), Float(100))
+        XCTAssertEqual(calc(a: -1, b:10, symb: "^"), Float(1))
+    }
+}
