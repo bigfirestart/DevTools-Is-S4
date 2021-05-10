@@ -33,10 +33,18 @@ class lab1TestsMult: XCTestCase{
     }
 }
 
-class lab1TestsDev: XCTestCase{
+class lab1TestsDiv: XCTestCase{
     func test(){
         XCTAssertEqual(calc(a: 1, b:2, symb: "/"), Float(1/2))
         XCTAssertEqual(calc(a: 10, b:2, symb: "/"), 5)
         XCTAssertEqual(calc(a: -10, b:10, symb: "/"), -1)
+    }
+}
+
+class lab1TestsExp: XCTestCase{
+    func test(){
+        XCTAssertEqual(calc(a: 1, b:2, symb: "^"), 1)
+        XCTAssertEqual(calc(a: 10, b:2, symb: "^"), 100)
+        XCTAssertEqual(calc(a: -1, b:10, symb: "^"), 1)
     }
 }
