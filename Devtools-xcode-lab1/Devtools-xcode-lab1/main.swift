@@ -19,6 +19,8 @@ func calc (a: Int, b: Int, symb: String) -> Float{
         return Float(a+b)
     case "-":
         return Float(a-b)
+    case "^":
+        return Float(a^b)
     default:
         return  0
     }
