@@ -1,9 +1,5 @@
 import Foundation
 
-//TODO
-
-//MARK - <#name#>
-
 /// Basic calculator documentation
 /// - Parametrs
 ///   - a: First number
@@ -36,9 +32,10 @@ var b = Int(readLine() ?? "1")!
  - Throws: `MyError.invalidRecipient`
            if `recipient` is "Derek"
            (he knows what he did).
-
+ 
  - Returns: A new string saying hello to `recipient`.
  */
+
 func greeting(to recipient: String) -> String {
     guard recipient != "Derek" else {
         return ""
