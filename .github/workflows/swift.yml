@@ -10,7 +10,9 @@ jobs:
   build:
 
     runs-on: macos-latest
-    working-directory: ./lab1/Devtools-xcode-lab1/
+    defaults:
+      run:
+        working-directory: ./lab1/Devtools-xcode-lab1/
 
     steps:
     - uses: actions/checkout@v2
