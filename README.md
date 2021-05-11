@@ -1,2 +1,13 @@
 # DevTools-Is-S4
-DevTools labs for ITMO on 4th semester
+
+## Calculator project
+
+
+### Mathematical function
+#### This calculator can do
+* multiplication
+* division
+* addition
+* subtraction
+* exponent
+* module
