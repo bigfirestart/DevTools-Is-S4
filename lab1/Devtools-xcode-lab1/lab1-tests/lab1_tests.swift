@@ -56,3 +56,12 @@ class lab1TestsMod: XCTestCase{
         XCTAssertEqual(calc(a: 3, b:2, symb: "%"), 1)
     }
 }
+
+class lab1TestsBitAnd: XCTestCase{
+    func test(){
+        XCTAssertEqual(calc(a: 10, b:2, symb: "&"), 2)
+        XCTAssertEqual(calc(a: 12, b:5, symb: "&"), 4)
+        XCTAssertEqual(calc(a: 3, b:2, symb: "&"), 2)
+    }
+}
+
