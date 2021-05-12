@@ -11,3 +11,4 @@
 * subtraction
 * exponent
 * module
+* bitwise AND
